@@ -1,0 +1,175 @@
+body{
+    font-family:arial;
+    margin: 0;
+    }
+.header{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom:150px;
+    }
+.header-left-text{
+    width:50%;
+    height: 400px;
+    margin-left: 200px;
+    }
+.header-right-img{
+    width:40%;
+    height:400px;
+    margin-left: 120px;
+    overflow: hidden;
+    }
+.header-right-img img{
+    position: relative;
+    right:180px;
+    overflow: hidden;
+    }
+.header-left-top{
+    font-family: 'Playfair Display', serif;
+    font-size:25px;
+    border-left: 3px solid;
+    border-image:linear-gradient(rgb(114, 3, 158),rgba(148, 0, 148, 0.61));
+    border-image-slice: 1;
+    margin-top: 80px;
+    }
+.header-left-top span{
+    color:rgb(44, 13, 128);
+    }
+.header button{
+    padding:7px 21px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    background-color:rgb(44, 13, 128) ;
+    border-radius: 4px;
+    border-color: rgb(44, 13, 128);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+/*==================================Header Section total complete (No changes need above!)====================*/
+
+.service-parent{
+    display: flex;
+    }
+.service-text{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-family: arial-black;
+    }
+.service-text span{
+    color:rgb(44, 13, 128);
+    }
+.service-one{
+    width: 20%;
+    height:350px;
+    padding:15px 30px ;
+    background-color: rgba(39, 21, 199, 0.507);
+    margin-left: 130PX;
+    margin-right: 20PX;
+    border-radius: 15PX;
+    }
+.service-two{
+    width: 20%;
+    height:350px;
+    padding:15px 30px ;
+    background-color: rgba(204, 108, 196, 0.616);
+    margin-right: 20PX;
+    border-radius: 15PX;
+    }
+.service-three{
+    width: 20%;
+    height:350px;
+    padding:15px 30px ;
+    background-color: rgba(143, 188, 143, 0.712);
+    border-radius: 15PX;
+    }
+.service-one img,.service-two img,.service-three img{
+    width: 150px;
+    }
+.service-one h1{
+    margin-top: 27px;
+    }
+/*===========================================    Service section complete   ===============================*/
+.first-team{
+    display: flex;
+    margin-top: 150px;
+    }
+.image{
+    border-radius: 20px;
+    width:300px;
+    height:300px;
+    margin-left: 120px;
+    overflow: hidden;
+     }
+.image img{
+         width:100%;
+     }
+.txt{
+    width:550px;
+    height:300px;
+    margin-left: 100px;
+    padding-top: 15px;
+    }
+.txt h1{
+    font-size: 30px;
+}
+.txt button{
+    padding:10px 30px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    background-color:rgb(44, 13, 128) ;
+    border-radius: 4px;
+    border-color: rgb(44, 13, 128);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.personalised{
+
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.parent-two{
+    display: flex;
+}
+.map{
+    margin-left: 100PX;
+}
+.contact{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 90px;
+}
+.contact span{
+    color:rgb(44, 13, 128);
+}
+.form{
+    display: flex;
+    margin-bottom: 20px;
+}
+.password{
+    margin-left: 40px;
+}
+.email input, .password input{
+    margin-top: 10px;
+    border-radius: 5px;
+    border:1px solid black;
+    padding:10px 30px;
+}
+footer{
+    width: 1263px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    padding:10px 0px;
+}
+footer h1{
+    font-family: 'Lobster';
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+footer h5{
+    text-align: center;
+    color: white;
+}
