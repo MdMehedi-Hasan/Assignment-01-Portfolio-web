@@ -8,20 +8,29 @@ body{
     margin-bottom:150px;
     }
 .header-left-text{
-    width:50%;
+    width: 535px;
     height: 400px;
-    margin-left: 200px;
+    margin-left: 160px;
     }
 .header-right-img{
-    width:40%;
-    height:400px;
-    margin-left: 120px;
+    width: 400px;
+    height: 400px;
+    margin-left: 60px;
     overflow: hidden;
     }
 .header-right-img img{
     position: relative;
-    right:180px;
+    right:100px;
     overflow: hidden;
+    }
+    .header-shape{
+        width: 400px;
+        margin-left: -395px;
+        margin-top: 35px;
+    }
+    .header-shape img{
+        width:100%;
+        height:100%;
     }
 .header-left-top{
     font-family: 'Playfair Display', serif;
@@ -219,6 +228,4 @@ footer h5{
     text-align: center;
     color: white;
 }
-/*====================================================================*/
-
 
