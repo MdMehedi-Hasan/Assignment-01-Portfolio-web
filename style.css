@@ -65,7 +65,7 @@ body{
     height:350px;
     padding:15px 30px ;
     background-color: rgba(39, 21, 199, 0.507);
-    margin-left: 130PX;
+    margin-left: 137PX;
     margin-right: 20PX;
     border-radius: 15PX;
     }
@@ -95,11 +95,19 @@ body{
     display: flex;
     margin-top: 150px;
     }
+.shape-1{
+        width: 200px;
+        margin-left: 45px;
+        margin-top: 46px;
+    }
+.shape-1 img{
+        width:100%;
+    }
 .image{
     border-radius: 20px;
     width:300px;
     height:300px;
-    margin-left: 120px;
+    margin-left: -110px;
     overflow: hidden;
      }
 .image img{
@@ -125,6 +133,44 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.second-shape-txt{
+    width:550px;
+    height:300px;
+    margin-left: 130px;
+    padding-top: 15px;
+}
+.second-shape-txt h1{
+    font-size: 30px;
+}
+.second-shape-txt button{
+    padding:10px 30px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    background-color:rgb(44, 13, 128) ;
+    border-radius: 4px;
+    border-color: rgb(44, 13, 128);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.shape-1-cstm{
+    width:180px;
+    margin-left: 310px;
+    margin-top: 205px;
+}
+.shape-1-cstm img{
+    width: 100%;
+}
+.team-two{
+    width:300px;;
+    margin-left: -386px;
+    overflow: hidden;
+}
+.team-two img{
+    width:100%;
+}
+
+/*=============================  team complete ==============================*/
 .personalised{
 
     margin-top: 100px;
@@ -173,3 +219,6 @@ footer h5{
     text-align: center;
     color: white;
 }
+/*====================================================================*/
+
+
